@@ -2,7 +2,13 @@
 Este repositório contém o código-fonte do novo site do pub, desenvolvido para a aula de sexta-feira.
 
 
+<div align="center">
+  <h2>Bem-vindo ao nosso repositório! </h2>
+</div> 
 
+<div align="center">
+  <h2>🎯 Objetivo PUB</h2>
+</div> 
 
 
 
