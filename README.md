@@ -10,6 +10,44 @@ Este repositório contém o código-fonte do novo site do pub, desenvolvido para
   <h2>🎯 Objetivo PUB</h2>
 </div> 
 
+•	Pagina inicial 
+o	Contato
+	Telefone do pub
+	Instagram do pub
+	Facebook do pub
+o	Localização
+	Endereço do pub
+o	Promoções
+	Aniversario
+	Happy Hour 
+o	Reservas
+	Faça sua reserva 
+o	Eventos
+	Musica 
+	Karaokê
+	Campeonato de sinuca 
+	Convidado especial 
+	Noite retrô 
+o	Horário de funcionamento
+	Segunda a sexta 
+	Domingos e feriados
+o	Cardápio
+	Bebidas alcoólicas
+	Cervejas 
+	doses
+	caipirinhas
+	bebidas não alcoólicas
+	Soda italiana
+	Sucos naturais
+	Porções 
+	Batata Pequena/Grande
+	Picanha Pequena/Grande
+	Camarão alho e olho Pequena/Grande
+	Camarão empanado Pequeno e grande
+o	Sobre nós
+	O que é o pub 
+	Fotos do pub
+
 
 
 
