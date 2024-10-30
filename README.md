@@ -1,4 +1,6 @@
-# Novo-Pub
+<div align="center">
+  <h1>  Novo-Pub
+</div> 
 Este repositório contém o código-fonte do novo site do pub, desenvolvido para a aula de sexta-feira: Interação Humano-Computador.
 
 
