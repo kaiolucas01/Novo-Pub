@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do container */
+.container {
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
+
+/* Estilos para os quadrados */
+.quadrado_roxo {
+    width: 100vw;
+    height: 90px;
+    background-color: purple;
+}
+
+.quadrado_amarelo {
+    width: 100vw;
+    height: 300px;
+    background-color: #F6D200;
+}
+
+/* Estilos para a imagem sobreposta */
+.imagem-sobreposta {
+    position: absolute;
+    top: 1px;
+    left: 290px;
+    transform: translateX(-50%);
+    width: 490px;
+    height: auto;
+    z-index: 1;
+}
+
+/* Estilos para a imagem 2 */
+.imagem-sobreposta2 {
+    display: absolute;
+    margin: 20px auto; 
+    max-width: 100%; 
+    height: auto;
+    z-index: 1;
+}
+
+/* Estilos para o texto sobreposto */
+.mensagem-sobreposta {
+    position: absolute;
+    top: 120px;
+    left: 790px;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 135px;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    color: #8f00c1;
+    z-index: 2;
+}
+
+.mensagem-sobrepostadegra {
+    position: absolute;
+    display: flex;
+    top: 110px;
+    left: 790px;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 135px;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    z-index: 2;
+    background: linear-gradient(to bottom, #ffffff 0%, #e0e0e0 50%, #808080 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-shadow: none;
+}
+
+/* Menu de navegação */
+.menu-container {
+    background-color: purple;
+    padding: 10px 0;
+    text-align: center;
+    width: 100vw;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    text-decoration: none;
+    color: #fff;
+    background-color: #F6D200;
+    padding: 20px;
+    margin: 0px 20px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.menu li:hover {
+    background-color: #F6D200;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Titulo dos eventos  */
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 900px;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #F6D200;
+    border-radius: 35px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    border: 4px solid purple;
+}
+
+/* Seção de Horário de Funcionamento */
+.horario-container {
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.horario-lista {
+    list-style-type: none;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Seção de Eventos */
+.eventos-container {
+    background-color: #F6D200;
+    padding: 40px;
+    text-align: center;
+}
+
+.eventos-lista {
+    list-style-type: none;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.eventos-lista li {
+    margin-bottom: 10px;
+}
+
+/* Seção de Reservas */
+.reservas-container {
+    background-color: #fff;
+    padding: 40px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.reservas-container form {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    align-items: center;
+    gap: 10px;
+}
+
+.reservas-container input,
+.reservas-container button {
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 2px solid purple;
+    width: 300px;
+}
+
+.reservas-container button {
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+
+.reservas-container button:hover {
+    background-color: #8f00c1;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #F6D200;
+    color: #000;
+    margin-top: 20px;
+    border-top: 4px solid purple;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
