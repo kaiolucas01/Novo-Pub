@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wario Pub</title>
+    <link rel="icon" href="image/favicon.jpg" type="image/png">
+    <link rel="stylesheet" href="css/agenda.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="quadrado_roxo"></div>
+        <img src="image/latest.png" alt="Imagem sobreposta" class="imagem-sobreposta">
+        <div class="mensagem-sobreposta">Agenda</div> <!-- Texto sobreposto aqui -->
+        <div class="mensagem-sobrepostadegra">Agenda</div> <!-- Texto sobreposto aqui -->
+        <div class="quadrado_amarelo"></div>
+    </div>
+    <nav class="menu-container">
+        <ul class="menu">
+            <li><a href="pub.html">Inicio</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+            <li><a href="Cardapio.html">Cardápio</a></li>
+            <li><a href="Sobre.html">Sobre nós</a></li>
+        </ul>
+    </nav>
+<!-- Seção de Horário de Funcionamento -->
+<section class="horario-container">
+    <h1>Horário de Funcionamento</h1>
+    <ul class="horario-lista">
+        <li>Segunda a Sexta: 18:00 - 02:00</li>
+        <li>Sábado: 16:00 - 03:00</li>
+        <li>Domingo: 16:00 - 02:00</li>
+    </ul>
+</section>
+
+<!-- Seção de Eventos -->
+<section class="eventos-container">
+    <h1>Próximos Eventos</h1>
+    <ul class="eventos-lista">
+        <li><strong>Campeonato de Sinuca</strong> - Quinta, 17 de Outubro às 19:00</li>
+        <li><strong>Festa Retrô</strong> - Sexta, 18 de Outubro às 22:00</li>
+        <li><strong>Karaokê Night</strong> - Sábado, 19 de Outubro às 23:00</li>
+        <li><strong>Convidado especial</strong> - Domingo, 20 de Outubro às 23:00</li>
+        <li><strong>Happy Hour com DJ</strong> - Quarta, 24 de Outubro às 18:00</li>
+    </ul>
+</section>
+
+<!-- Seção de Reservas -->
+<section class="reservas-container">
+    <h1>Faça sua Reserva</h1>
+    <p>Garanta seu lugar com antecedência!</p>
+    <form action="reservar.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="data">Data da Reserva:</label>
+        <input type="date" id="data" name="data" required>
+        <label for="pessoas">Número de Pessoas:</label>
+        <input type="number" id="pessoas" name="pessoas" min="1" required>
+        <button type="submit">Reservar</button>
+    </form>
+</section>
+    
+    
+    <img src="image/wario_coins.png" alt="Imagem sobreposta2" class="imagem-sobreposta2">
+
+    <footer>
+        <p>&copy; 2024 Wario Pub. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</body>
+</html>
