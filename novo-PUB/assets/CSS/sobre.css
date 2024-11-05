@@ -3,17 +3,23 @@ body {
     background-color: #3D1A54;
     color: #FFD700;
     font-family: Arial, sans-serif;
+    padding-top: 70px; /* Espaço para compensar a navbar fixa */
 }
 
-/* Cabeçalho claro */
+/* Cabeçalho claro fixo no topo */
 .navbar {
-    background-color: #FFD700; 
+    background-color: #FFD700;
     color: #4B0082;
-    padding: 15px 20px; /* Aumenta o preenchimento da navbar */
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1050;
+    border-bottom: 4px solid #4B0082;
 }
 .navbar .navbar-brand, .navbar .nav-link {
     color: #4B0082 !important;
-    font-size: 1.5rem; /* Aumenta o tamanho da fonte */
+    font-size: 1.5rem;
 }
 .navbar .navbar-toggler {
     color: #FFD700;
@@ -28,9 +34,9 @@ body {
 
 /* Ajuste para a imagem do logo */
 .imagem-sobreposta {
-    width: 150px; /* Aumenta o tamanho da imagem sobreposta */
-    height: auto; /* Mantém a proporção */
-    margin-right: 10px; /* Espaço entre a imagem e o nome */
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
 }
 
 /* Menu lateral escuro */
@@ -38,7 +44,7 @@ body {
     background-color: #4B0082; /* Cor escura para o menu */
     color: #FFF;
     margin-top: 78px;
-    transform: translateX(-100%); /* Mova para fora da tela inicialmente */
+    transform: translateX(-100%); /* Mova  tela para fora  */
     transition: transform 1.5s ease; /* Adiciona a transição */
 }
 
@@ -46,7 +52,7 @@ body {
 .offcanvas.show {
     transform: translateX(0); /* Volta para a posição original */
     visibility: visible; /* Torna o offcanvas visível quando estiver aberto */
-    transform: translateX(-100%);
+    transform: translateX(-100%);/* Mova  tela para dentro  */
     transition: transform 1.5s ease; /* Adiciona a transição */
     
 }
@@ -67,31 +73,34 @@ body {
     color: purple;
 }
 
+
+
+
 .section-title {
     color: #FFD700;
-    font-size: 2.5rem; /* Aumenta o tamanho do texto do título da seção */
-    margin-bottom: 20px; /* Adiciona margem inferior para espaçamento */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
 /* Rodapé */
 footer {
     background-color: #FFD700;
     color: #4B0082;
-    padding: 10px; /* Adiciona preenchimento ao rodapé */
+    padding: 10px;
 }
 
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
     .navbar .imagem-sobreposta {
-        max-width: 50px; /* Ajusta o tamanho da imagem no menu para telas menores */
+        width: 50px;
     }
     
     .navbar-content {
-        flex-direction: column; /* Muda a direção do flex para coluna em telas pequenas */
-        align-items: flex-start; /* Alinha os itens à esquerda */
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .offcanvas-body a {
-        padding: 10px; /* Reduz o espaçamento dos links no offcanvas em telas pequenas */
+        padding: 10px;
     }
 }
