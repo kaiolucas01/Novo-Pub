@@ -151,3 +151,17 @@ footer {
     font-size: 1.5rem; /* Aumente o tamanho do texto do parágrafo */
     line-height: 1.6; /* Aumenta o espaçamento entre linhas para melhor legibilidade */
 }
+
+.larger-image {
+    max-width: 300%; /* Faz com que a imagem ocupe a largura total da coluna */
+    width: 320%; /* Aumenta o tamanho da imagem para 120% da coluna */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.card-text {
+    color: #4B0082;
+}
+
+.card-title{
+    color: #4B0082;
+}
