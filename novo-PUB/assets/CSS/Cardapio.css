@@ -36,7 +36,8 @@ body {
 .imagem-sobreposta {
     width: 150px;
     height: auto;
-    margin-right: 10px;
+    max-width: 60px;
+    margin-right: 0px;
 }
 
 /* Menu lateral escuro */
@@ -89,18 +90,21 @@ footer {
     padding: 10px;
 }
 
-/* Responsividade para telas menores */
+/* Ajuste para o menu lateral em telas menores */
+.offcanvas-body {
+    padding-top: 20px; /* Adiciona espaçamento no topo */
+    overflow-y: auto; /* Adiciona rolagem se o conteúdo for muito grande */
+    max-height: 100vh; /* Limita a altura do menu para caber na tela */
+}
+
 @media (max-width: 768px) {
-    .navbar .imagem-sobreposta {
-        width: 50px;
+    .offcanvas {
+        margin-top: 70px; /* Ajusta a margem para telas menores */
     }
     
-    .navbar-content {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
+    /* Reduz o espaçamento entre os itens do menu */
     .offcanvas-body a {
         padding: 10px;
+        font-size: 1rem; /* Ajuste do tamanho da fonte */
     }
 }
