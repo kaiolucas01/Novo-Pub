@@ -108,3 +108,46 @@ footer {
         font-size: 1rem; /* Ajuste do tamanho da fonte */
     }
 }
+
+
+.bg-yellow {
+    background-color: #FFD700; /* Amarelo */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.card {
+    background-color: #4B0082; /* Roxo */
+    color: #FFD700; /* Texto em amarelo para contraste */
+    border-radius: 15px; /* Bordas arredondadas na parte inferior */
+    padding: 15px;
+}
+
+
+.card-body {
+    background-color: #FFD700; /* Roxo */
+    color: #000000; /* Texto em amarelo para contraste */
+    border-radius: 15px; /* Bordas arredondadas na parte inferior */
+    padding: 15px;
+}
+
+
+
+.img-backgrounds {
+    position: relative;
+    display: inline-block; /* Para que o efeito aplique apenas ao redor do conteúdo */
+}
+
+
+/* Estilo para o título da seção de boas-vindas */
+.section-title {
+    font-size: 2.5rem; /* Aumente o tamanho do título */
+    font-weight: bold;
+}
+
+/* Estilo para o parágrafo da seção de boas-vindas */
+.text-center p {
+    font-size: 1.5rem; /* Aumente o tamanho do texto do parágrafo */
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas para melhor legibilidade */
+}
