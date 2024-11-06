@@ -6,6 +6,17 @@ body {
     padding-top: 70px; /* Espaço para compensar a navbar fixa */
 }
 
+.sobre-nos {
+    font-family:sans-serif; /* Fonte  */
+    font-size: clamp(1.0rem, 5vw, 3rem); /* Tamanho responsivo */
+    font-weight: bold;
+    color: white; /* Cor do texto */
+    text-shadow: 2px 2px 0px #9d00ff; /* Primeira sombra */
+    display: flex;
+    align-items: center;
+}
+
+
 /* Cabeçalho claro fixo no topo */
 .navbar {
     background-color: #FFD700;
@@ -24,6 +35,7 @@ body {
 .navbar .navbar-toggler {
     color: #FFD700;
     border-color: #FFD700;
+    margin-left: 10px;
 }
 
 /* Container flexível para o nome e o botão de menu */
