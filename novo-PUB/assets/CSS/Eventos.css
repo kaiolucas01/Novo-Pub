@@ -6,7 +6,7 @@ body {
     padding-top: 70px; /* Espaço para compensar a navbar fixa */
 }
 
-.sobre-nos {
+.Eventos {
     font-family:sans-serif; /* Fonte  */
     font-size: clamp(1.0rem, 5vw, 3rem); /* Tamanho responsivo */
     font-weight: bold;

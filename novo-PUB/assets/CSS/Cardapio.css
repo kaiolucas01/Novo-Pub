@@ -6,7 +6,7 @@ body {
     padding-top: 70px; /* Espaço para compensar a navbar fixa */
 }
 
-.sobre-nos {
+.Cardapio {
     font-family:sans-serif; /* Fonte  */
     font-size: clamp(1.0rem, 5vw, 3rem); /* Tamanho responsivo */
     font-weight: bold;
@@ -37,6 +37,7 @@ body {
     border-color: #FFD700;
     margin-left: 10px;
 }
+
 /* Container flexível para o nome e o botão de menu */
 .navbar .navbar-content {
     display: flex;
@@ -87,11 +88,39 @@ body {
 
 
 
-
-.section-title {
-    color: #FFD700;
-    font-size: 2.5rem;
+/* Estilo do Cardápio */
+.menu-cardapio {
+    background-color: #F6D200;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.title {
+    color: #4B0082;
+    font-size: 3.8rem;
     margin-bottom: 20px;
+}
+.section-title {
+    color: #4B0082;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.text-ingr{
+    color: #9d00ff;
+}
+.established {
+    font-style: italic;
+    color: #4B0082;
+    font-size: 1.0rem;
+}
+.list-group-item {
+    background-color: transparent;
+    color: #4B0082;
+    font-weight: bold;
+}
+.list-group-item span:last-child {
+    color: #4B0082;
 }
 
 /* Rodapé */
@@ -99,23 +128,4 @@ footer {
     background-color: #FFD700;
     color: #4B0082;
     padding: 10px;
-}
-
-/* Ajuste para o menu lateral em telas menores */
-.offcanvas-body {
-    padding-top: 20px; /* Adiciona espaçamento no topo */
-    overflow-y: auto; /* Adiciona rolagem se o conteúdo for muito grande */
-    max-height: 100vh; /* Limita a altura do menu para caber na tela */
-}
-
-@media (max-width: 768px) {
-    .offcanvas {
-        margin-top: 70px; /* Ajusta a margem para telas menores */
-    }
-    
-    /* Reduz o espaçamento entre os itens do menu */
-    .offcanvas-body a {
-        padding: 10px;
-        font-size: 1rem; /* Ajuste do tamanho da fonte */
-    }
 }
