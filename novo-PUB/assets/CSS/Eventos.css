@@ -38,7 +38,6 @@ body {
     margin-left: 10px;
 }
 
-
 /* Container flexível para o nome e o botão de menu */
 .navbar .navbar-content {
     display: flex;
@@ -85,6 +84,15 @@ body {
 .offcanvas-body a:hover {
     background-color: #FFD700;
     color: purple;
+}
+
+.offcanvas-body i {
+    margin-right: 15px; /* Espaço entre o ícone e o texto */
+    
+}
+
+.offcanvas-body a:hover i {
+    color: purple; /* Cor do ícone ao passar o mouse */
 }
 
 

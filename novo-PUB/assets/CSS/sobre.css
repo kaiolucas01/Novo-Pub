@@ -86,7 +86,14 @@ body {
     color: purple;
 }
 
+.offcanvas-body i {
+    margin-right: 15px; /* Espaço entre o ícone e o texto */
+    
+}
 
+.offcanvas-body a:hover i {
+    color: purple; /* Cor do ícone ao passar o mouse */
+}
 
 
 .section-title {
