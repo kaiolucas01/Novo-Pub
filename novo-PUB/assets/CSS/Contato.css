@@ -129,3 +129,43 @@ footer {
         font-size: 1rem; /* Ajuste do tamanho da fonte */
     }
 }
+
+
+.content-box {
+    border: 1px solid #000;
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 300px;
+    margin: 2rem auto;
+}
+/* Estilos para cada botão */
+.btn-instagram {
+    background-color: #E1306C; /* Cor do Instagram */
+    color: white;
+    border: none;
+}
+.btn-facebook {
+    background-color: #3b5998; /* Cor do Facebook */
+    color: white;
+    border: none;
+}
+.btn-whatsapp {
+    background-color: #25D366; /* Cor do WhatsApp */
+    color: white;
+    border: none;
+}
+.btn-ifood {
+    background-color: #EA1D2C; /* Cor do iFood */
+    color: white;
+    border: none;
+}
+.btn-ubereats {
+    background-color: #000000; /* Cor do UberEats */
+    color: white;
+    border: none;
+}
+/* Efeito de hover */
+.btn-instagram:hover, .btn-facebook:hover, .btn-whatsapp:hover,
+.btn-ifood:hover, .btn-ubereats:hover {
+    opacity: 0.9;
+}
