@@ -103,10 +103,11 @@ body {
 }
 
 
+
+
 .container {
     width: 100%;
     max-width: 800px;
-   
     border-radius: 8px;
     padding: 2rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -157,6 +158,17 @@ body {
 .social-media p, .delivery p {
     font-size: 1rem;
 }
+.social-media div:hover, .delivery div:hover {
+    background-color: #FFD700; /* Cor de fundo amarela */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno para aumentar o tamanho do efeito */
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+.social-media div:hover i, .delivery div:hover i, 
+.social-media div:hover p, .delivery div:hover p {
+    color: #4B0082; /* Cor do texto e ícones quando em hover */
+}
 
 form {
     display: flex;
@@ -172,6 +184,7 @@ form label {
 form input, form textarea {
     padding: 0.8rem;
     margin-bottom: 1rem;
+    color: #FFD700;
     border: 2px solid #FFD700;
     border-radius: 5px;
     background-color: #3D1A54;
@@ -179,7 +192,7 @@ form input, form textarea {
 }
 
 form input::placeholder, form textarea::placeholder {
-    color: #c4c4c4;
+    color: #FFD700;
 }
 
 form button {
@@ -194,18 +207,19 @@ form button {
     transition: background 0.3s ease;
 }
 
-form button:hover {
-    background-color: #e6b800;
-}
+
 
 /* Link estilizado */
 a {
-    color: var(--branco);
+    color: #FFD700;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
-a:hover {
-    color: #e6b800;
+/* Rodapé */
+footer {
+    background-color: #FFD700;
+    color: #4B0082;
+    padding: 10px;
 }
