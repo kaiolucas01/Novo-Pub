@@ -13,11 +13,14 @@ Este repositório contém o código-fonte do novo site do pub, desenvolvido para
 </div> 
 
 ### Página Inicial
+  - Bem vindo
+  - O que tem no pub
 
 - **Contato**
   - Telefone do pub
   - Instagram do pub
   - Facebook do pub
+  - WhatsApp do pub
 
 - **Localização**
   - Endereço do pub
@@ -25,6 +28,8 @@ Este repositório contém o código-fonte do novo site do pub, desenvolvido para
 - **Promoções**
   - Aniversário
   - Happy Hour
+  - Drink da semana
+  - Petisco em dobro
 
 - **Reservas**
   - Faça sua reserva
@@ -36,9 +41,19 @@ Este repositório contém o código-fonte do novo site do pub, desenvolvido para
   - Convidado especial
   - Noite retrô
 
-- **Horário de Funcionamento**
-  - Segunda a sexta
-  - Domingos e feriados
+- **Informações**
+  - Horario de funcionamento
+  - Idade Mínima
+  - Código de Vestimenta
+  - Taxa de Serviço
+  - Formas de Pagamento
+  - Formas de pagamento não aceitas
+  - Reservas
+  - Happy Hour
+  - Wi-Fi gratuito
+  - Política de barulho
+  - Área para fumante
+  - Segurança
 
 - **Cardápio**
   - **Bebidas alcoólicas**
