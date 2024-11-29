@@ -137,3 +137,30 @@ footer {
     color: #4B0082;
     padding: 10px;
 }
+
+
+
+
+
+
+
+/* ROXOOOOOOOOOOOOOO */
+.accordion-roxo .accordion-header {
+    background-color: #FFD700; /* Cor de fundo roxo */
+}
+
+.accordion-roxo .accordion-button {
+    background-color: #6a0dad; /* Fundo roxo do botão */
+    color: #FFD700; /* Texto branco */
+    border: none; /* Remove bordas */
+}
+
+.accordion-roxo .accordion-button:not(.collapsed) {
+    background-color: #520b9e; /* Tom de roxo mais escuro quando expandido */
+    color: #FFD700;
+}
+
+.accordion-roxo .accordion-body {
+    background-color: #FFD700; /* Cor de fundo para o corpo do acordeão */
+    color: #FFD700; /* Cor do texto */
+}

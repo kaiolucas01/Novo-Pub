@@ -134,3 +134,26 @@ footer {
         font-size: 1rem; /* Ajuste do tamanho da fonte */
     }
 }
+
+
+
+
+
+
+
+
+
+/*ROXOOOOOOOOOOOO */
+.modal-roxo {
+    background-color: #6a0dad; /* Roxo */
+    color: #FFD700; 
+}
+
+.modal-roxo .modal-header,
+.modal-roxo .modal-footer {
+    border: none; /* Remove as bordas */
+}
+
+.modal-roxo .btn-close {
+    filter: invert(100%); /* Altera a cor do botão fechar para contraste */
+}
