@@ -85,7 +85,6 @@ body {
     background-color: #FFD700;
     color: purple;
 }
-
 .offcanvas-body i {
     margin-right: 15px; /* Espaço entre o ícone e o texto */
     
@@ -105,9 +104,54 @@ body {
     flex: 1 1 auto;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
     background-color: #FFD700;
-    color: #4B0082
+    color: #4B0082;
 }
 
+/* Estilização dos botões */
+.btn {
+    display: inline-block;
+    background-color: #6a0dad; /* Roxo */
+    color: #FFD700; /* Amarelo */
+    border: 2px solid #6a0dad; /* Borda inicial */
+    padding: 10px 20px;
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem; /* Ajuste do tamanho do texto */
+    cursor: pointer; /* Aplica o cursor de botão */
+    text-align: center; /* Centraliza o texto no botão */
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* Suaviza as transições */
+}
+
+/* Aparência ao passar o mouse */
+.btn:hover {
+    background-color: #FFD700; /* Amarelo */
+    color: #4B0082; /* Roxo escuro */
+    border-color: #4B0082; /* Borda roxa escura */
+}
+
+/* Força para sobrescrever botões padrão ou estilos de links */
+a.btn {
+    all: unset; /* Remove todos os estilos padrão */
+    display: inline-block;
+    background-color: #6a0dad;
+    color: #FFD700;
+    border: 2px solid #6a0dad;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+a.btn:hover {
+    background-color: #FFD700;
+    color: #4B0082;
+    border-color: #4B0082;
+}
 
 /* Rodapé */
 footer {
@@ -127,7 +171,7 @@ footer {
     .offcanvas {
         margin-top: 70px; /* Ajusta a margem para telas menores */
     }
-    
+
     /* Reduz o espaçamento entre os itens do menu */
     .offcanvas-body a {
         padding: 10px;
@@ -135,23 +179,16 @@ footer {
     }
 }
 
-
-
-
-
-
-
-
-
-/*ROXOOOOOOOOOOOO */
+/* Roxo */
 .modal-roxo {
     background-color: #6a0dad; /* Roxo */
-    color: #FFD700; 
+    color: #FFD700;
 }
 
 .modal-roxo .modal-header,
 .modal-roxo .modal-footer {
     border: none; /* Remove as bordas */
+    background-color: #6a0dad;
 }
 
 .modal-roxo .btn-close {

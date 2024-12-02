@@ -131,20 +131,7 @@ body {
     color: #4B0082;
 }
 
-/* Rodapé */
-footer {
-    background-color: #FFD700;
-    color: #4B0082;
-    padding: 10px;
-}
-
-
-
-
-
-
-
-/* ROXOOOOOOOOOOOOOO */
+* ROXOOOOOOOOOOOOOO */
 .accordion-roxo .accordion-header {
     background-color: #FFD700; /* Cor de fundo roxo */
 }
@@ -163,4 +150,12 @@ footer {
 .accordion-roxo .accordion-body {
     background-color: #FFD700; /* Cor de fundo para o corpo do acordeão */
     color: #FFD700; /* Cor do texto */
+}
+
+
+/* Rodapé */
+footer {
+    background-color: #FFD700;
+    color: #4B0082;
+    padding: 10px;
 }

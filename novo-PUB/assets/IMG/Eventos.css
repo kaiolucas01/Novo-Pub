@@ -6,7 +6,7 @@ body {
     padding-top: 70px; /* Espaço para compensar a navbar fixa */
 }
 
-.Reservas {
+.Eventos {
     font-family:sans-serif; /* Fonte  */
     font-size: clamp(1.0rem, 5vw, 3rem); /* Tamanho responsivo */
     font-weight: bold;
@@ -95,14 +95,19 @@ body {
     color: purple; /* Cor do ícone ao passar o mouse */
 }
 
-
-
-
 .section-title {
     color: #FFD700;
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
+
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    background-color: #FFD700;
+    color: #4B0082
+}
+
 
 /* Rodapé */
 footer {
@@ -128,4 +133,32 @@ footer {
         padding: 10px;
         font-size: 1rem; /* Ajuste do tamanho da fonte */
     }
+}
+
+
+
+
+
+
+
+
+
+/*ROXOOOOOOOOOOOO */
+.modal-roxo {
+    background-color: #6a0dad; /* Roxo */
+    color: #FFD700; 
+}
+
+.modal-roxo .modal-header,
+.modal-roxo .modal-footer {
+    border: none; /* Remove as bordas */
+}
+
+.modal-roxo .btn-close {
+    filter: invert(100%); /* Altera a cor do botão fechar para contraste */
+}
+
+.btn{
+    background-color: #6a0dad;
+    color: #FFD700;
 }
