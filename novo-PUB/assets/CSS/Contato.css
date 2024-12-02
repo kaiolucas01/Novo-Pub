@@ -167,7 +167,7 @@ body {
 
 .social-media div:hover i, .delivery div:hover i, 
 .social-media div:hover p, .delivery div:hover p {
-    color: #4B0082; /* Cor do texto e ícones quando em hover */
+    color: #4B0082; 
 }
 
 form {
@@ -206,6 +206,7 @@ form button {
     cursor: pointer;
     transition: background 0.3s ease;
 }
+
 
 
 
