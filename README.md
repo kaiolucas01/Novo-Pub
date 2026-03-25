@@ -1,88 +1,74 @@
-<div align="center">
-  <h1>  Novo-Pub
-</div> 
-Este repositório contém o código-fonte do novo site do pub, desenvolvido para a aula de sexta-feira: Interação Humano-Computador.
+# 🍻 Novo-Pub:
 
+Experiência Digital em IHC
+Este repositório contém o código-fonte do novo site institucional do Pub, desenvolvido como projeto prático para a disciplina de Interação Humano-Computador. O foco do projeto é aplicar conceitos de usabilidade, acessibilidade e arquitetura de informação.
 
-<div align="center">
-  <h2>Bem-vindo ao nosso repositório! </h2>
-</div> 
+## 📌 Sobre o Projeto
 
-<div align="center">
-  <h2>🎯 Objetivo PUB</h2>
-</div> 
+O Novo-Pub foi idealizado para ser o ponto de contato digital definitivo entre o estabelecimento e seus clientes, facilitando o acesso ao cardápio, reservas e informações essenciais.
 
-### Página Inicial
-  - Bem vindo
-  - O que tem no pub
+## 🎯 Objetivos de IHC aplicados:
 
-- **Contato**
-  - Telefone do pub
-  - Instagram do pub
-  - Facebook do pub
-  - WhatsApp do pub
+Facilidade de Aprendizado: Navegação intuitiva para que o usuário encontre o cardápio ou faça uma reserva em poucos cliques.
 
-- **Localização**
-  - Endereço do pub
+Arquitetura de Informação: Organização lógica de conteúdos (Promoções, Eventos e Informações Úteis).
 
-- **Promoções**
-  - Aniversário
-  - Happy Hour
-  - Drink da semana
-  - Petisco em dobro
+## 🗺️ Mapa do Site (Conteúdo)
 
-- **Reservas**
-  - Faça sua reserva
+O projeto está estruturado nos seguintes módulos:
 
-- **Eventos**
-  - Música
-  - Karaokê
-  - Campeonato de sinuca
-  - Convidado especial
-  - Noite retrô
+## 🏠 Institucional
 
-- **Informações**
-  - Horario de funcionamento
-  - Idade Mínima
-  - Código de Vestimenta
-  - Taxa de Serviço
-  - Formas de Pagamento
-  - Formas de pagamento não aceitas
-  - Reservas
-  - Happy Hour
-  - Wi-Fi gratuito
-  - Política de barulho
-  - Área para fumante
-  - Segurança
+- Página Inicial: Boas-vindas e proposta de valor do pub.
 
-- **Cardápio**
-  - **Bebidas alcoólicas**
-    - Cervejas
-    - Doses
-    - Caipirinhas
-  - **Bebidas não alcoólicas**
-    - Soda italiana
-    - Sucos naturais
-  - **Porções**
-    - Batata Pequena/Grande
-    - Picanha Pequena/Grande
-    - Camarão alho e óleo Pequena/Grande
-    - Camarão empanado Pequeno/Grande
+- Sobre Nós: História do pub e galeria de fotos do ambiente.
 
-- **Sobre Nós**
-  - O que é o pub
-  - Fotos do pub
+- Informações Úteis: Horários, dress code, política de barulho, acessibilidade e segurança.
 
+## 🍔 Experiência do Cliente
 
+- Cardápio Digital: * Bebidas (Alcoólicas e não alcoólicas).
 
-### 1. 📍 Clonar o Repositório
-Vamos começar clonando um repositório do GitHub em um diretório local através do terminal, conforme indicado a seguir:
-```
+- Porções variadas com opções de tamanhos (P/G).
+
+- Promoções: Destaque para Aniversários, Happy Hour e Drink da Semana.
+
+- Eventos: Agenda de música ao vivo, Karaokê e campeonatos.
+
+## 📞 Conversão e Contato
+- Reservas: Sistema integrado para reserva de mesas.
+
+- Localização: Endereço completo e mapa.
+
+- Canais de Atendimento: Links diretos para Instagram, Facebook e WhatsApp.
+
+## 🛠️ Tecnologias Utilizadas
+HTML5
+
+CSS3 (com foco em design responsivo)
+
+Frameworks: ( Bootstrap)
+
+## 🚀 Como Executar o Projeto
+Para visualizar o projeto localmente, siga os passos abaixo:
+
+1. 📍 Clonar o Repositório
+Abra o seu terminal e execute:
+
+Bash
+
 git clone https://github.com/kaiolucas01/Novo-Pub
-```
+
+2. 📂 Acessar a Pasta
+Bash
+
+cd Novo-Pub
+
+3. 🌐 Abrir no Navegador
+Basta abrir o arquivo index.html no seu navegador de preferência ou usar a extensão Live Server do VS Code.
 
 
-## Equipe do Projeto
+# Equipe do Projeto
 
 | matrícula | nome | foto |
 | -------- | -------- | -------- |
